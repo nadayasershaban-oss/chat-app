@@ -23,7 +23,7 @@ st.markdown("""
         border: 1px solid #e0e0e0;
     }
     .other-message { 
-        background-color: #ffffff; 
+        background-color: #333333; 
         padding: 10px; 
         border-radius: 10px; 
         margin: 5px; 
