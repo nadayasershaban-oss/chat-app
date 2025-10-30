@@ -60,7 +60,7 @@ if 'conversations' not in st.session_state:
     }
 
 if 'current_user' not in st.session_state:
-    st.session_state.current_user = {"name": "أحمد", "status": "متاح"}
+    st.session_state.current_user = {"name": "أندى", "status": "متاح"}
 
 # الشريط الجانبي
 with st.sidebar:
@@ -75,7 +75,7 @@ with st.sidebar:
     
     st.markdown("---")
     st.subheader("👥 المستخدمون")
-    users = ["محمد", "فاطمة", "خالد", "سارة"]
+    users = ["محمد", "فاطمة", "خالد", "سارة" ,"ميس شيماء" ,"منه]
     selected_user = st.selectbox("اختر مستخدم للمحادثة:", users)
     
     st.markdown("---")
