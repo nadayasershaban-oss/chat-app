@@ -44,6 +44,7 @@ if 'conversations' not in st.session_state:
             {"sender": "محمد", "message": "مرحباً، كيف حالك؟", "time": "10:30 ص"},
             {"sender": "ندى", "message": "أهلاً، أنا بخير الحمدلله. وأنت؟", "time": "10:31 ص"},
             {"sender": "محمد", "message": "بخير أيضاً، شكراً لك", "time": "10:32 ص"},
+        ],
         "فاطمة": [
             {"sender": "فاطمة", "message": "هل انتهيت من التقرير؟", "time": "09:15 ص"},
             {"sender": "ندى", "message": "نعم، سأرسله لك الآن", "time": "09:20 ص"}
@@ -55,12 +56,11 @@ if 'conversations' not in st.session_state:
         "سارة": [
             {"sender": "سارة", "message": "شكراً على المساعدة", "time": "الجمعة 03:45 م"},
             {"sender": "ندى", "message": "العفو، دائماً في الخدمة", "time": "الجمعة 03:50 م"}
-        ]
+        ],
         "ميس شيماء": [
             {"sender": "ندى", "message": "انا عملت برنامج", "time": "الجمعه 08:28 م"}
             {"sender": "ميس شيماء", "message": "برافو استمري يا ندى", "time": "الجمعه 08:30 ص"}
-        ]
-]
+    ]
 if 'current_user' not in st.session_state:
     st.session_state.current_user = {"name": "ندى", "status": "متاح"}
 
