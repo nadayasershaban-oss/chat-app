@@ -16,7 +16,7 @@ st.markdown("""
     .main { direction: rtl; }
     .css-1d391kg { padding: 2rem; }
     .user-message { 
-        background-color: #dcf8c6; 
+        background-color: #000000; 
         padding: 10px; 
         border-radius: 10px; 
         margin: 5px; 
