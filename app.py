@@ -39,7 +39,7 @@ st.markdown("""
 
 # البيانات
 if 'conversations' not in st.session_state:
-    st.session_state.conversations = {
+    st.session_state.conversations = [
         "محمد": [
             {"sender": "محمد", "message": "مرحباً، كيف حالك؟", "time": "10:30 ص"},
             {"sender": "ندى", "message": "أهلاً، أنا بخير الحمدلله. وأنت؟", "time": "10:31 ص"},
