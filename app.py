@@ -55,11 +55,11 @@ if 'conversations' not in st.session_state:
         "سارة": [
             {"sender": "سارة", "message": "شكراً على المساعدة", "time": "الجمعة 03:45 م"},
             {"sender": "ندى", "message": "العفو، دائماً في الخدمة", "time": "الجمعة 03:50 م"}
-        ],
+        ]
         "ميس شيماء": [
             {"sender": "ندى", "message": "انا عملت برنامج", "time": "الجمعه 08:28 م"}
             {"sender": "ميس شيماء", "message": "برافو استمري يا ندى", "time": "الجمعه 08:30 ص"}
-        ],
+        ]
 ]
 if 'current_user' not in st.session_state:
     st.session_state.current_user = {"name": "ندى", "status": "متاح"}
